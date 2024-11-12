@@ -1,0 +1,26 @@
+body {
+    width: 25%;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    margin: 12px;
+    font-size: 24px;
+    padding: 8px 24px;
+    border-radius: 10px;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-around;
+}

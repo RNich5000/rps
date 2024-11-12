@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p id="humanScore">Human score: 0</p>
-    <p id="computerScore">Computer score: 0</p>
-    <p id="ties">Ties: 0</p>
-    <br />
-    <p id="gameOver"></p>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>First to 5 points wins!</h1>
+		<div class="btnContainer">
+			<button id="btnRock">Rock</button>
+			<button id="btnPaper">Paper</button>
+			<button id="btnScissors">Scissors</button>
+		</div>
+		<div class="scores">
+			<p id="humanScore">Human score: 0</p>
+			<p id="computerScore">Computer score: 0</p>
+			<p id="ties">Ties: 0</p>
+		</div>
+		<ol id="tally"></ol>
+		<p id="gameOver"></p>
 
-    <script src="script.js"></script>
-</body>
+		<script src="script.js"></script>
+	</body>
 </html>
